@@ -14,9 +14,10 @@
 </head>
 <body>
 
-<header class="d-flex flex-column align-items-center p-2">
+<header class="container d-flex flex-column align-items-center p-2">
     <img src="images/tim.jpeg">
     <h1>It's Tim not Timmy</h1>
+    <p>Where is my Dragonball Z cap?!</p>
     <ul>
         <li>Dauntles</li>
         <li>Cheese</li>
@@ -24,25 +25,42 @@
     </ul>
 </header>
 
-<main>
-    <section class="favColor">
-        <h2>Favourite Color</h2>
+<main class="container-fluid">
+    <section class="container d-flex flex-column align-items-center justify-content-center p-4 favColor">
+        <h2>Favourite Colour</h2>
+        <p class="mt-4" id="colourDescription">What happens when you combine my 2 favourite colors in the world? You get this beauty behind me. You can call it a dark purple or whatever you like. But for me there is nothing more beautiful than the combination of black and hotpink.</p>
     </section>
 
-    <section class="favAnimal">
+    <section class="container d-flex flex-column justify-content-center align-items-center p-4 favAnimal">
         <h2>Favourite Animal</h2>
+        <div class="container d-flex flex-row justify-content-between align-items-center mt-4">
+            <p id="animalDescription">I have nothing but love for this beautiful animal, this cat on my right side just says it all. I mean there is a reason why people love cats, just look around youtube and type in cat videos. They just make my day, especially when they can help me coding when they put on their pink wig.</p>
+            <div class="animalPicture backgroundImage"></div>
+        </div>
     </section>
 
-    <section class="favSport">
+    <section class="container d-flex flex-column justify-content-center align-items-center favSport">
         <h2>Favourite Sport</h2>
+        <div class="container d-flex flex-column align-items-center mt-4">
+            <div class="sportPicture backgroundImage"></div>
+            <p class="mt-4" id="sportDescription">Nothing gets me more pumped than my favourite all time sport. Running around like Naruto and his friends, but doing it as fast as possible behind news reporters. It gives me a kick and keeps my stamina up. Who said smoking effects your stamina sure isn't doing my sport.</p>
+        </div>
     </section>
 
-    <section class="favCharacter">
+    <section class="container d-flex flex-column justify-content-center align-items-center favCharacter">
         <h2>Favourite Character</h2>
+        <div class="container d-flex flex-row justify-content-between align-items-center mt-4">
+            <div class="characterPicture backgroundImage"></div>
+            <p id="characterDescription">His struggle is a shared struggle, he has many friends, Naruto can take criticism well, Naruto never gives up hope, Naruto is a hero with great powers, Naruto is passionate the whole time, his unique traits which make him stand out from other ninjas, his kind heart & loyalty, he can overcome obstacles of any size, his unwavering determination. Do I even need to go on?!</p>
+        </div>
     </section>
 
-    <section class="favCeleb">
+    <section class="container d-flex flex-column justify-content-center align-items-center favCeleb">
         <h2>Favourite Celebrity</h2>
+        <div class="container d-flex flex-column align-items-center mt-4">
+            <div class="celebrityPicture backgroundImage"></div>
+            <p class="mt-4" id="celebrityDescription">I mean could I make it more obvious when I made the website about Cedric? He loves him, I love him, everybody loves him. I've seen all his movies and know all his catchphrases like "WHOA", in Bill & Ted's Bogus Journey, he says it 27 times. He is the kindest person I know, I even played League with him a few weeks ago and he let me win.</p>
+        </div>
     </section>
 
 </main>
