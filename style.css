@@ -3,12 +3,97 @@
     padding: 0;
 }
 
-header {
-
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 header img {
     border-radius: 50%;
-    height: 30%;
-    width: 30%;
+    height: 25%;
+    width: 25%;
+    margin: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    display: inline-flex;
+    list-style: circle;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    margin: 20px;
+    text-align: center;
+}
+
+/******************************/
+/*##### FAVOURITE COLOUR #####*/
+/******************************/
+.favColor {
+    background-color: #400729;
+}
+
+.favColor h2 {
+    color: hotpink;
+}
+
+.favColor p {
+    color: white;
+    width: 90%;
+}
+
+/******************************/
+/*##### FAVOURITE ANIMAL #####*/
+/******************************/
+.favAnimal p {
+    width: 60%;
+}
+
+/******************************/
+/*##### FAVOURITE SPORT #####*/
+/******************************/
+.favsport p {
+    width: 60%;
+}
+
+/******************************/
+/*##### FAVOURITE ANIMAL #####*/
+/******************************/
+.favCharacter p {
+    width: 60%;
+}
+
+/**********************/
+/*##### PICTURES #####*/
+/**********************/
+.animalPicture {
+    background-image: url("images/cat.gif");
+    width: 150px;
+    height: 150px;
+}
+
+.sportPicture {
+    background-image: url("images/run-like-naruto.gif");
+    width: 480px;
+    height: 270px;
+}
+
+.characterPicture {
+    background-image: url("images/naruto.gif");
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+}
+
+.celebrityPicture {
+    background-image: url("images/keanu.gif");
+    width: 625px;
+    height: 349px;
 }
